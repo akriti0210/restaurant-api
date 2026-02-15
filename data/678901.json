@@ -1,0 +1,188 @@
+{
+  "status": true,
+  "message": "Restaurant Menu fetched successfully",
+  "data": {
+    "cards": [
+      {},
+      {},
+      {
+        "card": {
+          "card": {
+            "info": {
+              "id": "678901",
+              "name": "Dessert Delight",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/8/731001f1-f1c4-4f5f-849f-79a697cb0b72_390173.jpg",
+              "locality": "Lavelle Road",
+              "areaName": "West End",
+              "costForTwo": "₹200 for two",
+              "costForTwoMessage": "₹200 for two",
+              "cuisines": ["Desserts", "Ice Cream", "Bakery"],
+              "avgRating": 4.6,
+              "avgRatingString": "4.6",
+              "totalRatingsString": "7K+ ratings",
+              "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 1.8,
+                "lastMileTravelString": "1.8 km",
+                "slaString": "22 mins"
+              }
+            }
+          }
+        }
+      },
+      {},
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {},
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Ice Creams",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_501",
+                              "name": "Chocolate Fudge Ice Cream",
+                              "category": "Ice Cream",
+                              "description": "Rich chocolate ice cream with fudge chunks",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 14900,
+                              "defaultPrice": 14900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_502",
+                              "name": "Strawberry Ice Cream",
+                              "category": "Ice Cream",
+                              "description": "Fresh strawberry flavored ice cream",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 12900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_503",
+                              "name": "Butterscotch Ice Cream",
+                              "category": "Ice Cream",
+                              "description": "Creamy butterscotch with caramel bits",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 13900,
+                              "defaultPrice": 13900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Cakes",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_504",
+                              "name": "Black Forest Cake",
+                              "category": "Cakes",
+                              "description": "Chocolate sponge cake with cherry and cream (slice)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 9900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_505",
+                              "name": "Red Velvet Cake",
+                              "category": "Cakes",
+                              "description": "Moist red velvet with cream cheese frosting (slice)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 11900,
+                              "defaultPrice": 11900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Sundaes",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_506",
+                              "name": "Hot Fudge Sundae",
+                              "category": "Sundaes",
+                              "description": "Vanilla ice cream with hot chocolate fudge",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 17900,
+                              "defaultPrice": 17900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_507",
+                              "name": "Brownie Sundae",
+                              "category": "Sundaes",
+                              "description": "Warm brownie with ice cream and nuts",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 19900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Shakes",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_508",
+                              "name": "Oreo Shake",
+                              "category": "Shakes",
+                              "description": "Thick shake with crushed Oreo cookies",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 14900,
+                              "defaultPrice": 14900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

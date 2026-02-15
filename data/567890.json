@@ -1,0 +1,200 @@
+{
+  "status": true,
+  "message": "Restaurant Menu fetched successfully",
+  "data": {
+    "cards": [
+      {},
+      {},
+      {
+        "card": {
+          "card": {
+            "info": {
+              "id": "567890",
+              "name": "Chinese Dragon",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/ba9f1f59-30d5-44de-afad-df6db8471ead_9648.jpg",
+              "locality": "Commercial Street",
+              "areaName": "East District",
+              "costForTwo": "₹350 for two",
+              "costForTwoMessage": "₹350 for two",
+              "cuisines": ["Chinese", "Asian", "Thai"],
+              "avgRating": 4.4,
+              "avgRatingString": "4.4",
+              "totalRatingsString": "9K+ ratings",
+              "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 2.8,
+                "lastMileTravelString": "2.8 km",
+                "slaString": "28 mins"
+              }
+            }
+          }
+        }
+      },
+      {},
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {},
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Starters",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_401",
+                              "name": "Chicken Manchurian",
+                              "category": "Starters",
+                              "description": "Crispy chicken balls in spicy manchurian sauce",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 24900,
+                              "defaultPrice": 24900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_402",
+                              "name": "Spring Rolls",
+                              "category": "Starters",
+                              "description": "Crispy vegetable spring rolls (6 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 18900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_403",
+                              "name": "Chilli Paneer",
+                              "category": "Starters",
+                              "description": "Spicy paneer with bell peppers and onions",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 22900,
+                              "defaultPrice": 22900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Noodles & Rice",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_404",
+                              "name": "Hakka Noodles",
+                              "category": "Noodles",
+                              "description": "Stir-fried noodles with vegetables",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 19900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_405",
+                              "name": "Chicken Fried Rice",
+                              "category": "Rice",
+                              "description": "Wok-tossed rice with chicken and vegetables",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 21900,
+                              "defaultPrice": 21900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_406",
+                              "name": "Schezwan Noodles",
+                              "category": "Noodles",
+                              "description": "Spicy schezwan sauce noodles with veggies",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 22900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Main Course",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_407",
+                              "name": "Sweet and Sour Chicken",
+                              "category": "Main Course",
+                              "description": "Chicken in tangy sweet and sour sauce",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 27900,
+                              "defaultPrice": 27900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_408",
+                              "name": "Kung Pao Chicken",
+                              "category": "Main Course",
+                              "description": "Spicy chicken with peanuts and vegetables",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 29900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Soups",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_409",
+                              "name": "Hot and Sour Soup",
+                              "category": "Soups",
+                              "description": "Spicy and tangy vegetable soup",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 12900,
+                              "defaultPrice": 12900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

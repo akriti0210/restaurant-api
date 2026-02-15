@@ -1,0 +1,200 @@
+{
+  "status": true,
+  "message": "Restaurant Menu fetched successfully",
+  "data": {
+    "cards": [
+      {},
+      {},
+      {
+        "card": {
+          "card": {
+            "info": {
+              "id": "789012",
+              "name": "Sushi Station",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/acfcaacc-edf0-4189-8264-d614d312c0ee_740457.JPG",
+              "locality": "Indiranagar",
+              "areaName": "Uptown",
+              "costForTwo": "₹800 for two",
+              "costForTwoMessage": "₹800 for two",
+              "cuisines": ["Japanese", "Sushi", "Asian"],
+              "avgRating": 4.8,
+              "avgRatingString": "4.8",
+              "totalRatingsString": "5K+ ratings",
+              "sla": {
+                "deliveryTime": 40,
+                "lastMileTravel": 5.2,
+                "lastMileTravelString": "5.2 km",
+                "slaString": "40 mins"
+              }
+            }
+          }
+        }
+      },
+      {},
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {},
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Sushi Rolls",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_601",
+                              "name": "California Roll",
+                              "category": "Sushi",
+                              "description": "Crab, avocado, and cucumber roll (8 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 39900,
+                              "defaultPrice": 39900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_602",
+                              "name": "Spicy Tuna Roll",
+                              "category": "Sushi",
+                              "description": "Fresh tuna with spicy mayo (8 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 44900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_603",
+                              "name": "Dragon Roll",
+                              "category": "Sushi",
+                              "description": "Shrimp tempura with avocado topping (8 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 54900,
+                              "defaultPrice": 54900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Nigiri",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_604",
+                              "name": "Salmon Nigiri",
+                              "category": "Sushi",
+                              "description": "Fresh salmon on seasoned rice (2 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 29900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_605",
+                              "name": "Tuna Nigiri",
+                              "category": "Sushi",
+                              "description": "Premium tuna on seasoned rice (2 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 32900,
+                              "defaultPrice": 32900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Ramen",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_606",
+                              "name": "Tonkotsu Ramen",
+                              "category": "Ramen",
+                              "description": "Rich pork bone broth with noodles and toppings",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 42900,
+                              "defaultPrice": 42900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_607",
+                              "name": "Miso Ramen",
+                              "category": "Ramen",
+                              "description": "Savory miso broth with vegetables",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 39900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Appetizers",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_608",
+                              "name": "Edamame",
+                              "category": "Appetizers",
+                              "description": "Steamed soybeans with sea salt",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 14900,
+                              "defaultPrice": 14900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_609",
+                              "name": "Gyoza",
+                              "category": "Appetizers",
+                              "description": "Pan-fried dumplings (6 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 19900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

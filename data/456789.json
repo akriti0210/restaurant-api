@@ -1,0 +1,200 @@
+{
+  "status": true,
+  "message": "Restaurant Menu fetched successfully",
+  "data": {
+    "cards": [
+      {},
+      {},
+      {
+        "card": {
+          "card": {
+            "info": {
+              "id": "456789",
+              "name": "Spice Kingdom",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/17/7bd350a8-55e7-459b-83a2-e250e670d194_14558.JPG",
+              "locality": "Brigade Road",
+              "areaName": "City Center",
+              "costForTwo": "₹500 for two",
+              "costForTwoMessage": "₹500 for two",
+              "cuisines": ["Indian", "North Indian", "Biryani"],
+              "avgRating": 4.2,
+              "avgRatingString": "4.2",
+              "totalRatingsString": "12K+ ratings",
+              "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 4,
+                "lastMileTravelString": "4.0 km",
+                "slaString": "35 mins"
+              }
+            }
+          }
+        }
+      },
+      {},
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {},
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Biryani Special",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_301",
+                              "name": "Chicken Dum Biryani",
+                              "category": "Biryani",
+                              "description": "Aromatic basmati rice with tender chicken pieces",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 29900,
+                              "defaultPrice": 29900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_302",
+                              "name": "Mutton Biryani",
+                              "category": "Biryani",
+                              "description": "Hyderabadi style mutton biryani with raita",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 39900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_303",
+                              "name": "Veg Dum Biryani",
+                              "category": "Biryani",
+                              "description": "Mixed vegetables in fragrant basmati rice",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 24900,
+                              "defaultPrice": 24900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "North Indian Curries",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_304",
+                              "name": "Butter Chicken",
+                              "category": "Curry",
+                              "description": "Creamy tomato-based chicken curry",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 32900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_305",
+                              "name": "Paneer Tikka Masala",
+                              "category": "Curry",
+                              "description": "Grilled paneer in rich tomato gravy",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 27900,
+                              "defaultPrice": 27900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_306",
+                              "name": "Dal Makhani",
+                              "category": "Curry",
+                              "description": "Black lentils cooked in butter and cream",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 22900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Breads",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_307",
+                              "name": "Butter Naan",
+                              "category": "Breads",
+                              "description": "Soft naan brushed with butter",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 4900,
+                              "defaultPrice": 4900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_308",
+                              "name": "Garlic Naan",
+                              "category": "Breads",
+                              "description": "Naan topped with garlic and coriander",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 5900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Desserts",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_309",
+                              "name": "Gulab Jamun",
+                              "category": "Desserts",
+                              "description": "Sweet milk dumplings in sugar syrup (2 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 7900,
+                              "defaultPrice": 7900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

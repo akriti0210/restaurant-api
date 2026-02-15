@@ -1,0 +1,188 @@
+{
+  "status": true,
+  "message": "Restaurant Menu fetched successfully",
+  "data": {
+    "cards": [
+      {},
+      {},
+      {
+        "card": {
+          "card": {
+            "info": {
+              "id": "901234",
+              "name": "Pasta Palace",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/17/7bd350a8-55e7-459b-83a2-e250e670d194_14558.JPG",
+              "locality": "Koramangala",
+              "areaName": "Tech Hub",
+              "costForTwo": "₹450 for two",
+              "costForTwoMessage": "₹450 for two",
+              "cuisines": ["Italian", "Pasta", "Continental"],
+              "avgRating": 4.1,
+              "avgRatingString": "4.1",
+              "totalRatingsString": "6K+ ratings",
+              "sla": {
+                "deliveryTime": 32,
+                "lastMileTravel": 3.8,
+                "lastMileTravelString": "3.8 km",
+                "slaString": "32 mins"
+              }
+            }
+          }
+        }
+      },
+      {},
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {},
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Classic Pasta",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_801",
+                              "name": "Spaghetti Carbonara",
+                              "category": "Pasta",
+                              "description": "Creamy pasta with bacon and parmesan",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 32900,
+                              "defaultPrice": 32900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_802",
+                              "name": "Penne Arrabbiata",
+                              "category": "Pasta",
+                              "description": "Spicy tomato sauce pasta with garlic",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 28900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_803",
+                              "name": "Fettuccine Alfredo",
+                              "category": "Pasta",
+                              "description": "Rich and creamy white sauce pasta",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 31900,
+                              "defaultPrice": 31900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Baked Pasta",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_804",
+                              "name": "Lasagna",
+                              "category": "Pasta",
+                              "description": "Layered pasta with meat sauce and cheese",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 36900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_805",
+                              "name": "Baked Mac and Cheese",
+                              "category": "Pasta",
+                              "description": "Classic macaroni in cheese sauce",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 29900,
+                              "defaultPrice": 29900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Soups & Salads",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_806",
+                              "name": "Minestrone Soup",
+                              "category": "Soups",
+                              "description": "Italian vegetable soup",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 14900,
+                              "defaultPrice": 14900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_807",
+                              "name": "Caesar Salad",
+                              "category": "Salads",
+                              "description": "Romaine lettuce with caesar dressing",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 19900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Garlic Bread",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_808",
+                              "name": "Garlic Bread",
+                              "category": "Sides",
+                              "description": "Toasted bread with garlic butter (4 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 12900,
+                              "defaultPrice": 12900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

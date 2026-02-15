@@ -1,0 +1,200 @@
+{
+  "status": true,
+  "message": "Restaurant Menu fetched successfully",
+  "data": {
+    "cards": [
+      {},
+      {},
+      {
+        "card": {
+          "card": {
+            "info": {
+              "id": "890123",
+              "name": "South Spice",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/6def0f0f-9e6c-45c0-b5e6-05af750f27b5_795906.JPG",
+              "locality": "Jayanagar",
+              "areaName": "South Bangalore",
+              "costForTwo": "₹300 for two",
+              "costForTwoMessage": "₹300 for two",
+              "cuisines": ["South Indian", "Dosa", "Idli"],
+              "avgRating": 4.5,
+              "avgRatingString": "4.5",
+              "totalRatingsString": "11K+ ratings",
+              "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 3,
+                "lastMileTravelString": "3.0 km",
+                "slaString": "25 mins"
+              }
+            }
+          }
+        }
+      },
+      {},
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {},
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Dosa Varieties",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_701",
+                              "name": "Masala Dosa",
+                              "category": "Dosa",
+                              "description": "Crispy rice crepe filled with potato masala",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 12900,
+                              "defaultPrice": 12900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_702",
+                              "name": "Paper Dosa",
+                              "category": "Dosa",
+                              "description": "Extra thin and crispy dosa",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 14900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_703",
+                              "name": "Mysore Masala Dosa",
+                              "category": "Dosa",
+                              "description": "Spicy dosa with red chutney and potato filling",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 15900,
+                              "defaultPrice": 15900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Idli & Vada",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_704",
+                              "name": "Idli Sambar",
+                              "category": "Idli",
+                              "description": "Steamed rice cakes with sambar and chutney (2 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 7900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_705",
+                              "name": "Medu Vada",
+                              "category": "Vada",
+                              "description": "Crispy lentil donuts with chutney (2 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 8900,
+                              "defaultPrice": 8900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_706",
+                              "name": "Sambar Vada",
+                              "category": "Vada",
+                              "description": "Vada soaked in hot sambar (2 pcs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 9900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Rice Items",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_707",
+                              "name": "Bisi Bele Bath",
+                              "category": "Rice",
+                              "description": "Traditional Karnataka rice and lentil dish",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 14900,
+                              "defaultPrice": 14900
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_708",
+                              "name": "Curd Rice",
+                              "category": "Rice",
+                              "description": "Cooling rice with yogurt and tempering",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 11900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Beverages",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "item_709",
+                              "name": "Filter Coffee",
+                              "category": "Beverages",
+                              "description": "Traditional South Indian filter coffee",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/23/754c1beb-c413-4fc9-b141-d3680387b462_b553356f-7a27-477f-be6e-f6b9ec3a8bdb.jpg",
+                              "price": 4900,
+                              "defaultPrice": 4900
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
