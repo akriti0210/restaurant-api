@@ -8,6 +8,16 @@ async function connectDB() {
   await mongoose.connect(MONGODB_URI);
 }
 
+function wrapRestaurant(r: any) {
+  return {
+    info: formatRestaurant(r),
+  };
+}
+
+function wrapRestaurants(restaurants: any[]) {
+  return restaurants.map(wrapRestaurant);
+}
+
 function formatRestaurant(r: any) {
   return {
     resId: r.resId,
@@ -65,7 +75,7 @@ const resolvers = {
     restaurants: async () => {
       await connectDB();
       const restaurants = await Restaurant.find({});
-      return formatRestaurants(restaurants);
+      return wrapRestaurants(formatRestaurants(restaurants));
     },
 
     searchRestaurants: async (_: any, { name, filter, sort }: any) => {
@@ -80,7 +90,8 @@ const resolvers = {
 
       const restaurants = await Restaurant.find(query);
       const formatted = formatRestaurants(restaurants);
-      return applySort(formatted, sort);
+      const sorted = applySort(formatted, sort);
+      return sorted.map((r) => ({ info: r }));
     },
 
     getRestaurantById: async (_: any, { id }: any) => {
@@ -98,7 +109,8 @@ const resolvers = {
 
       const restaurants = await Restaurant.find(query);
       const formatted = formatRestaurants(restaurants);
-      return applySort(formatted, sort);
+      const sorted = applySort(formatted, sort);
+      return sorted.map((r) => ({ info: r }));
     },
   },
 };

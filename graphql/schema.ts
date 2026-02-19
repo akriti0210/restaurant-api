@@ -18,6 +18,10 @@ export const typeDefs = gql`
     menu: [MenuItem!]!
   }
 
+  type RestaurantCard {
+    info: Restaurant!
+}
+
   type SLA {
     deliveryTime: Int
     lastMileTravel: Int
@@ -43,9 +47,9 @@ export const typeDefs = gql`
   }
 
   type Query {
-    restaurants: [Restaurant!]!
-    searchRestaurants(name: String!, filter: RestaurantFilter, sort: String): [Restaurant!]!
-    getRestaurantById(id: String!): Restaurant
-    filterRestaurants(rating: Float, cuisines: [String!], veg: Boolean, sort: String): [Restaurant!]!
+    restaurants: [RestaurantCard!]!
+    searchRestaurants(name: String!, filter: RestaurantFilter, sort: String): [RestaurantCard!]!
+    getRestaurantById(id: String!): RestaurantCard
+    filterRestaurants(rating: Float, cuisines: [String!], veg: Boolean, sort: String): [RestaurantCard!]!
   }
 `;
