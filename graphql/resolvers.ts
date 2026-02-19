@@ -41,6 +41,11 @@ function formatRestaurants(restaurants: any[]) {
   return restaurants.map(formatRestaurant);
 }
 
+const extractCost = (str: string): number => {
+  const match = str.match(/[\d,]+/);
+  return match ? Number(match[0].replace(/,/g, "")) : 0;
+};
+
 function applySort(restaurants: any[], sort?: string) {
   if (!sort) return restaurants;
 
@@ -54,14 +59,14 @@ function applySort(restaurants: any[], sort?: string) {
       return arr.sort((a, b) => (b.avgRating || 0) - (a.avgRating || 0));
     case "COST_ASC":
       return arr.sort((a, b) => {
-        const ca = parseInt(a.costForTwo as any) || 0;
-        const cb = parseInt(b.costForTwo as any) || 0;
+        const ca = extractCost(a.costForTwo);
+        const cb = extractCost(b.costForTwo);
         return ca - cb;
       });
     case "COST_DESC":
       return arr.sort((a, b) => {
-        const ca = parseInt(a.costForTwo as any) || 0;
-        const cb = parseInt(b.costForTwo as any) || 0;
+        const ca = extractCost(a.costForTwo);
+        const cb = extractCost(b.costForTwo);
         return cb - ca;
       });
     case "RELEVANCE":
